@@ -3,7 +3,7 @@ FROM python:stretch
 COPY . /app
 WORKDIR /app
 
-#  RUN pip install upgrade
+#  RUN pip install upgrade 
 RUN pip install -r requirements.txt
 
 
